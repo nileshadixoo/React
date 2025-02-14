@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.watch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 17rem;
+  max-width: 25rem;
+  padding: 12px;
+  background-color: rgb(145, 145, 145);
+  border-radius: 12px;
+}
+.time{
+  color: white;
+  font-size: 30px;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.btn{
+  margin: 6px 3px;
+  border-radius: 50px;
+  border:  none;
+  padding: 6px;
+}
